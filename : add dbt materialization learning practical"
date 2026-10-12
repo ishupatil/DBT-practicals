@@ -1,0 +1,15 @@
+ .gitignore                                             |  11 [32m++++[m
+ docs/dbt-materializations-practical.md                 | 161 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ sales_analytics/.gitignore                             |   5 [32m++[m
+ sales_analytics/README.md                              |  15 [32m++++++[m
+ sales_analytics/analyses/.gitkeep                      |   0
+ sales_analytics/dbt_project.yml                        |  36 [32m+++++++++++++[m
+ sales_analytics/macros/.gitkeep                        |   0
+ sales_analytics/models/example/my_first_dbt_model.sql  |  23 [32m++++++++[m
+ sales_analytics/models/example/my_second_dbt_model.sql |   6 [32m+++[m
+ sales_analytics/models/example/schema.yml              |  21 [32m++++++++[m
+ sales_analytics/models/my_third_dbt_model.sql          |   4 [32m++[m
+ sales_analytics/seeds/.gitkeep                         |   0
+ sales_analytics/snapshots/.gitkeep                     |   0
+ sales_analytics/tests/.gitkeep                         |   0
+ 14 files changed, 282 insertions(+)
