@@ -3,3 +3,14 @@ target/
 dbt_packages/
 logs/
 .env
+
+# Local credentials and configuration
+profiles.yml
+.venv/
+
+# Local database files
+*.duckdb
+*.wal
+
+# Python cache
+__pycache__/
